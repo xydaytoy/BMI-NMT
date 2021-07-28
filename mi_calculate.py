@@ -79,5 +79,5 @@ if __name__ =="__main__":
                 else:
                     weight_list.append(-1.0)
             str_weight = ' '.join([str(i) for i in weight_list])
-            mi_out.write("{}\n".format(weight))
+            mi_out.write("{}\n".format(str_weight))
     print("mi.txt finish")     
